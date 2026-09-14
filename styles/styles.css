@@ -1,0 +1,95 @@
+/* Universal selector reset: remove default browser margin/padding
+   from every element and switch box-sizing to border-box so that
+   padding and border are included inside an element's declared
+   width/height instead of adding to it. This makes the page layout
+   much easier to control. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General image default */
+img {
+    width: 200px;
+    height: auto;
+}
+
+/* Limit the width of the main content area */
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+/* Override the general img rule for the profile picture in main.
+   Using a "main img" descendant selector gives this rule higher
+   specificity than the plain "img" selector above, so the profile
+   photo can have its own size (150px) without affecting other
+   images on the page, such as the one in the aside. The image is
+   floated to the right so the introduction paragraph wraps beside
+   it. */
+main img {
+    width: 150px;
+    height: auto;
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+/* Paragraph spacing so text below/around the floated image still
+   has breathing room now that the universal reset removed the
+   browser default. */
+main p {
+    margin-bottom: 1em;
+}
+
+/* Aside box that highlights a fact about my home country. The box
+   model properties (margin, border, padding, background-color,
+   color) now come from the shared ".box" class below, so this rule
+   only keeps what is unique to the aside: its width and the
+   positioning context for the overlay heading. */
+aside {
+    width: 250px;
+    margin: 1.5em auto;
+    position: relative;
+}
+
+/* The image inside the aside keeps its own 200px width and an
+   automatic height so its aspect ratio is preserved. */
+aside img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+/* Overlay the "Ghana" heading directly on top of the aside image
+   using absolute positioning. Because the aside element above has
+   position: relative, this h2 positions itself relative to the
+   aside box instead of the whole page. */
+aside h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    padding: 0.4em;
+    background-color: rgba(0, 0, 0, 0.55);
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Separate the footer from the main content and center its text */
+footer {
+    margin-top: 2em;
+    border-top: 2px solid #2f6f4f;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 2px solid #2f6f4f;
+    padding: 1rem;
+    background-color: #eaf5ee;
+    color: #1c3d2b;
+}
