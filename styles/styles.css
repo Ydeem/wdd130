@@ -15,6 +15,25 @@ img {
     height: auto;
 }
 
+/* Top navigation bar */
+nav {
+    background-color: #2f6f4f;
+    padding: 0.75em 1em;
+}
+
+/* Each nav link fills its own block so the whole link area (not
+   just the text) is clickable and padded. */
+nav a {
+    color: #ffffff;
+    padding: 0.5em 1em;
+    display: block;
+}
+
+/* Main heading color */
+h1 {
+    color: #2f6f4f;
+}
+
 /* Limit the width of the main content area */
 main {
     max-width: 700px;
@@ -25,13 +44,16 @@ main {
 /* Override the general img rule for the profile picture in main.
    Using a "main img" descendant selector gives this rule higher
    specificity than the plain "img" selector above, so the profile
-   photo can have its own size (150px) without affecting other
-   images on the page, such as the one in the aside. The image is
-   floated to the right so the introduction paragraph wraps beside
-   it. */
+   photo can have its own size (150px), border, padding, and shadow
+   without affecting other images on the page, such as the one in
+   the aside. The image is floated to the right so the introduction
+   paragraph wraps beside it. */
 main img {
     width: 150px;
     height: auto;
+    border: 3px solid #2f6f4f;
+    padding: 4px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
     float: right;
     margin: 0 0 1em 1em;
 }
@@ -40,17 +62,18 @@ main img {
    has breathing room now that the universal reset removed the
    browser default. */
 main p {
+    padding: 0;
     margin-bottom: 1em;
 }
 
-/* Aside box that highlights a fact about my home country. The box
-   model properties (margin, border, padding, background-color,
-   color) now come from the shared ".box" class below, so this rule
-   only keeps what is unique to the aside: its width and the
-   positioning context for the overlay heading. */
+/* Aside box that highlights a fact about my home country. */
 aside {
     width: 250px;
     margin: 1.5em auto;
+    border: 2px solid #2f6f4f;
+    padding: 1em;
+    background-color: #eaf5ee;
+    color: #1c3d2b;
     position: relative;
 }
 
@@ -75,6 +98,12 @@ aside h2 {
     background-color: rgba(0, 0, 0, 0.55);
     color: #ffffff;
     text-align: center;
+}
+
+/* Base paragraph rule: remove default padding so spacing is
+   controlled by margin/layout rules instead. */
+p {
+    padding: 0;
 }
 
 /* Separate the footer from the main content and center its text */
