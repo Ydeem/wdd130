@@ -107,6 +107,7 @@ header nav a:hover {
 section {
     background-color: #ffffff;
     border: 1px solid #ddd6c4;
+    border-left: 4px solid var(--accent2-color);
     border-radius: 6px;
 }
 
