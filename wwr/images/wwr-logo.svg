@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <circle cx="80" cy="80" r="76" fill="#123a5e"/>
+  <circle cx="80" cy="80" r="76" fill="none" stroke="#ffffff" stroke-width="4"/>
+  <path d="M20 95 Q45 75 70 95 T120 95 T170 95" stroke="#5bc0eb" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M15 110 Q45 90 75 110 T135 110" stroke="#ffffff" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <path d="M60 45 L100 45 L110 95 L50 95 Z" fill="#e8622c"/>
+  <path d="M80 20 L80 55" stroke="#f4b942" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="80" cy="15" r="7" fill="#f4b942"/>
+  <text x="80" y="135" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#ffffff" font-weight="bold">WWR</text>
+</svg>
