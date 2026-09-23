@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Lava Falls: dramatic reddish rapid -->
+  <rect width="200" height="200" fill="#fde9df"/>
+  <polygon points="0,95 70,35 140,95" fill="#8a5a4a"/>
+  <polygon points="90,95 160,45 200,95" fill="#734938"/>
+  <rect y="90" width="200" height="110" fill="#123a5e"/>
+  <path d="M0 120 Q40 100 80 125 T160 120 T200 128" stroke="#e8622c" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.75"/>
+  <path d="M0 150 Q40 135 90 155 T200 150" stroke="#ffffff" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <polygon points="70,95 85,140 100,95" fill="#3b2b26"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Big Mallard: a big cresting wave with a raft -->
+  <rect width="200" height="200" fill="#e6f7ff"/>
+  <polygon points="0,95 70,35 140,95" fill="#6b7b8c"/>
+  <rect y="90" width="200" height="110" fill="#123a5e"/>
+  <path d="M0 120 C 40 70, 90 70, 120 120 C 140 150, 170 140, 200 120 L200 200 L0 200 Z" fill="#1d6fa5"/>
+  <path d="M0 122 C 40 78, 90 78, 120 122" stroke="#ffffff" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <g transform="translate(150,150) scale(0.8)">
+    <ellipse cx="0" cy="24" rx="70" ry="16" fill="#e8622c"/>
+    <ellipse cx="0" cy="17" rx="70" ry="16" fill="#f2814a"/>
+    <circle cx="-30" cy="6" r="9" fill="#f4c17d"/>
+    <rect x="-35" y="13" width="10" height="15" rx="4" fill="#f4b942"/>
+  </g>
+</svg>

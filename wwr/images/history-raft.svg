@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="300" height="220">
+  <defs>
+    <linearGradient id="hwater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1d6fa5"/>
+      <stop offset="100%" stop-color="#123a5e"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="220" fill="#e6f7ff"/>
+  <polygon points="0,110 90,40 180,110" fill="#6b7b8c"/>
+  <polygon points="120,110 210,55 300,110" fill="#57687a"/>
+  <rect y="105" width="300" height="115" fill="url(#hwater)"/>
+  <path d="M0 130 Q 75 110 150 130 T 300 128" stroke="#ffffff" stroke-opacity="0.5" stroke-width="5" fill="none"/>
+  <path d="M0 160 Q 75 145 150 160 T 300 158" stroke="#ffffff" stroke-opacity="0.35" stroke-width="5" fill="none"/>
+  <g transform="translate(150,150)">
+    <ellipse cx="0" cy="24" rx="70" ry="16" fill="#e8622c"/>
+    <ellipse cx="0" cy="17" rx="70" ry="16" fill="#f2814a"/>
+    <circle cx="-30" cy="6" r="9" fill="#f4c17d"/>
+    <rect x="-35" y="13" width="10" height="15" rx="4" fill="#d64545"/>
+    <circle cx="15" cy="4" r="9" fill="#f4c17d"/>
+    <rect x="10" y="11" width="10" height="15" rx="4" fill="#2f8f6e"/>
+  </g>
+</svg>

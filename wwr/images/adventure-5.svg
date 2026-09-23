@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Sunrise Rapids: warm sunrise gradient over the river -->
+  <defs>
+    <linearGradient id="sunrise" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4b942"/>
+      <stop offset="100%" stop-color="#fde9df"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="url(#sunrise)"/>
+  <circle cx="100" cy="90" r="30" fill="#f2814a"/>
+  <polygon points="0,95 60,55 120,95" fill="#57687a" opacity="0.8"/>
+  <polygon points="90,95 150,60 200,95" fill="#6b7b8c" opacity="0.8"/>
+  <rect y="90" width="200" height="110" fill="#1d6fa5"/>
+  <path d="M0 118 Q50 100 100 118 T200 115" stroke="#ffffff" stroke-width="5" fill="none" opacity="0.6"/>
+  <path d="M0 150 Q50 135 100 150 T200 148" stroke="#ffffff" stroke-width="5" fill="none" opacity="0.5"/>
+</svg>
