@@ -15,18 +15,33 @@ img {
     height: auto;
 }
 
-/* Top navigation bar */
+/* Separate the header visually from the page content below it. */
+header {
+    border-bottom: 1px solid #777;
+}
+
+/* Top navigation bar, laid out with Flexbox so the links sit in a
+   row. align-items: center vertically centers the links (the flex
+   items) along the cross axis within the nav bar. */
 nav {
     background-color: #2f6f4f;
     padding: 0.75em 1em;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
 }
 
 /* Each nav link fills its own block so the whole link area (not
-   just the text) is clickable and padded. */
+   just the text) is clickable and padded. text-decoration: none
+   removes the underline browsers apply to links by default. */
 nav a {
     color: #ffffff;
     padding: 0.5em 1em;
-    display: block;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 /* Main heading color */
@@ -120,5 +135,33 @@ footer {
     border: 2px solid #2f6f4f;
     padding: 1rem;
     background-color: #eaf5ee;
+    color: #1c3d2b;
+}
+
+/* Photo gallery: a three-column CSS Grid for the temple photos.
+   The caption paragraph sits in the row underneath the photos and
+   is stretched across all three columns with grid-column: 1 / 4. */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    max-width: 700px;
+    margin: 1.5em auto;
+}
+
+.gallery .item {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    border: 2px solid #2f6f4f;
+    border-radius: 4px;
+    display: block;
+}
+
+.gallery .caption {
+    grid-column: 1 / 4;
+    text-align: center;
+    font-style: italic;
     color: #1c3d2b;
 }

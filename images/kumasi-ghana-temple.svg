@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200">
+  <rect width="320" height="200" fill="#e4ecf5"/>
+  <rect y="150" width="320" height="50" fill="#cdddef"/>
+  <!-- Main temple building -->
+  <rect x="95" y="115" width="130" height="65" fill="#f4f1e6" stroke="#123a5e" stroke-width="2"/>
+  <!-- Columns -->
+  <rect x="105" y="123" width="7" height="57" fill="#c9c2a6"/>
+  <rect x="128" y="123" width="7" height="57" fill="#c9c2a6"/>
+  <rect x="151" y="123" width="7" height="57" fill="#c9c2a6"/>
+  <rect x="174" y="123" width="7" height="57" fill="#c9c2a6"/>
+  <rect x="197" y="123" width="7" height="57" fill="#c9c2a6"/>
+  <!-- Two smaller side towers -->
+  <rect x="100" y="85" width="26" height="35" fill="#f4f1e6" stroke="#123a5e" stroke-width="2"/>
+  <polygon points="100,85 126,85 113,65" fill="#123a5e"/>
+  <rect x="194" y="85" width="26" height="35" fill="#f4f1e6" stroke="#123a5e" stroke-width="2"/>
+  <polygon points="194,85 220,85 207,65" fill="#123a5e"/>
+  <!-- Central tower -->
+  <rect x="142" y="55" width="36" height="65" fill="#f4f1e6" stroke="#123a5e" stroke-width="2"/>
+  <polygon points="142,55 178,55 160,22" fill="#123a5e"/>
+  <line x1="160" y1="22" x2="160" y2="8" stroke="#123a5e" stroke-width="2"/>
+  <circle cx="160" cy="6" r="3" fill="#d9a441"/>
+  <!-- Steps -->
+  <rect x="85" y="180" width="150" height="8" fill="#c9c2a6"/>
+</svg>

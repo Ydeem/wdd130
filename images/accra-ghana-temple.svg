@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200">
+  <rect width="320" height="200" fill="#dff0e4"/>
+  <rect y="150" width="320" height="50" fill="#bfe0cb"/>
+  <!-- Main temple building -->
+  <rect x="90" y="110" width="140" height="70" fill="#f4f1e6" stroke="#2f6f4f" stroke-width="2"/>
+  <!-- Columns -->
+  <rect x="100" y="120" width="8" height="60" fill="#c9c2a6"/>
+  <rect x="126" y="120" width="8" height="60" fill="#c9c2a6"/>
+  <rect x="152" y="120" width="8" height="60" fill="#c9c2a6"/>
+  <rect x="178" y="120" width="8" height="60" fill="#c9c2a6"/>
+  <rect x="204" y="120" width="8" height="60" fill="#c9c2a6"/>
+  <!-- Central tower -->
+  <rect x="140" y="55" width="40" height="60" fill="#f4f1e6" stroke="#2f6f4f" stroke-width="2"/>
+  <polygon points="140,55 180,55 160,25" fill="#2f6f4f"/>
+  <line x1="160" y1="25" x2="160" y2="10" stroke="#2f6f4f" stroke-width="2"/>
+  <circle cx="160" cy="8" r="3" fill="#d9a441"/>
+  <!-- Steps -->
+  <rect x="80" y="180" width="160" height="8" fill="#c9c2a6"/>
+</svg>
