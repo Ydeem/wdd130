@@ -152,16 +152,23 @@ section {
 }
 
 /* Adventure gallery: CSS Grid spreads the five trip photos evenly
-   across the section in a single row of equal-width columns. */
+   across the section in a single row of equal-width columns. The
+   heading spans the full row above them. */
 .adventure-gallery {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 1em;
-    margin: 16px;
+    align-items: start;
+}
+
+.adventure-gallery h2 {
+    grid-column: 1 / -1;
+    text-align: center;
 }
 
 .adventure-gallery figure {
     text-align: center;
+    margin: 0;
 }
 
 .adventure-gallery img {
